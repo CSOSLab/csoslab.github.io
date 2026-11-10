@@ -335,6 +335,7 @@ main:focus { outline: none; }
   .footer-inner { grid-template-columns: 1fr; gap: 24px; }
 }
 @media (max-width: 560px) {
+  .fig .fig-link { width: 100%; }
   .wrap { padding-left: 16px; padding-right: 16px; }
   .cards, .units { grid-template-columns: 1fr; }
   .people-strip { grid-template-columns: repeat(2, 1fr); }
