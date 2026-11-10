@@ -188,11 +188,6 @@ main:focus { outline: none; }
 .people-strip .pname { font-weight: 800; margin-top: 12px; color: var(--navy); }
 .people-strip .prole { font-size: 13px; color: var(--muted); line-height: 1.5; }
 
-.news-list { list-style: none; margin: 0; padding: 0; border-top: 2px solid var(--navy); }
-.news-list li { display: grid; grid-template-columns: 240px 1fr; gap: 24px; padding: 18px 8px; border-bottom: 1px solid var(--line); }
-.news-list time { color: var(--accent); font-weight: 700; font-size: 15px; }
-.news-list a { color: var(--ink); font-weight: 500; }
-
 /* ---------------- sub pages ---------------- */
 .page-banner {
   color: #fff; padding: 64px 0 56px;
@@ -327,7 +322,6 @@ main:focus { outline: none; }
   .stat-list .num { font-size: 36px; }
   .units { grid-template-columns: repeat(2, 1fr); }
   .cards { grid-template-columns: repeat(2, 1fr); }
-  .news-list li { grid-template-columns: 1fr; gap: 4px; }
   .sec-head { flex-wrap: wrap; align-items: flex-start; }
 
   .page-banner { padding: 40px 0 36px; }
