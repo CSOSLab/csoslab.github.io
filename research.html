@@ -95,10 +95,9 @@
 <section class="sec sec-l2" id="dean-hardware" aria-labelledby="dean-hardware-t">
 <h3 id="dean-hardware-t">하드웨어와 센서</h3>
 <ul><li>센서: 2차원 적외선 센서 (PIR Array), 노이즈 마이크, 온습도, 공기질 분석 센서 (Gas), 조도 센서 (Light)</li><li>인지 대상: 출입, 체류, 생활 행동 (ADL) 과 단위공간 이동 속도, 거리, 이동 횟수, 체류 시간. 결과는 SlimHub 에 알립니다.</li><li>통신: BLE 무선통신으로 데이터를 관리합니다.</li><li>처리: On-Device AI 로 노이즈 마이크 데이터를 분석합니다.</li><li>설치: 천장 (화재감지기와 비슷한 위치) 이나 벽면에 붙여 개별 단위공간 (거실, 화장실, 안방 등) 의 ADL 을 분석합니다. 한 집의 출입구, 침실, 화장실, 주방, 거실에 하나씩 두고, 가운데의 SlimHub 와 잇습니다.</li></ul>
-<figure class="fig" style="--w:60%"><a href="assets/images/fig_005101_01_dean_node_hardware.png" class="fig-link"><img src="assets/images/fig_005101_01_dean_node_hardware.png" alt="DEAN 노드 외형 (Mic, Light, Gas, PIR Array) 과 보드 (Inference MCU, Main MCU)" width="767" height="613" loading="lazy" decoding="async"></a><figcaption>DEAN 노드 외형 (Mic, Light, Gas, PIR Array) 과 보드 (Inference MCU, Main MCU)</figcaption></figure>
+<figure class="fig" style="--w:55%"><a href="assets/images/fig_005101_01_dean_node_2026.png" class="fig-link"><img src="assets/images/fig_005101_01_dean_node_2026.png" alt="2026년 판 초저전력 경량 DEAN node 외형과 보드 (MCU: ESP32-S3)" width="1000" height="774" loading="lazy" decoding="async"></a><figcaption>2026년 판 초저전력 경량 DEAN node 외형과 보드 (MCU: ESP32-S3)</figcaption></figure>
 <figure class="fig" style="--w:55%"><a href="assets/images/fig_005101_01_dean_home_layout.png" class="fig-link"><img src="assets/images/fig_005101_01_dean_home_layout.png" alt="가구내 배치도 (Entry, Bedroom, Toilet, Kitchen, Living Room, 가운데 SlimHub) 와 주방, 화장실, 거실 천장 설치 사진" width="610" height="613" loading="lazy" decoding="async"></a><figcaption>가구내 배치도 (Entry, Bedroom, Toilet, Kitchen, Living Room, 가운데 SlimHub) 와 주방, 화장실, 거실 천장 설치 사진</figcaption></figure>
 <ul><li>DEAN node 2026 판: On-device AI 지원 MCU, 저전력 구현, USB-C, 확장 배터리 (유선, 무선), 쉬운 설치를 특징으로 하는 deep edge node 로, 대규모 실증에 맞는 사양을 갖추었습니다.</li></ul>
-<figure class="fig" style="--w:55%"><a href="assets/images/fig_005101_01_dean_node_2026.png" class="fig-link"><img src="assets/images/fig_005101_01_dean_node_2026.png" alt="2026년 판 초저전력 경량 DEAN node" width="1000" height="774" loading="lazy" decoding="async"></a><figcaption>2026년 판 초저전력 경량 DEAN node</figcaption></figure>
 </section>
 <section class="sec sec-l2" id="dean-software" aria-labelledby="dean-software-t">
 <h3 id="dean-software-t">소프트웨어 구조</h3>
