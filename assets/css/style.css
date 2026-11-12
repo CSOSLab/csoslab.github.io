@@ -158,6 +158,11 @@ main:focus { outline: none; }
 .stat-list .lab { font-size: 16px; color: rgba(255, 255, 255, .85); margin-top: 6px; }
 .stat-note { margin: 28px 0 0; font-size: 14px; color: rgba(255, 255, 255, .7); }
 .stat-note a { color: #fff; text-decoration: underline; }
+/* 9584: visible heading on the dark stats band */
+.home .stats .sec-head { margin-bottom: 32px; }
+.home .stats .eyebrow { color: #ffb3ad; }
+.home .stats h2 { color: #fff; }
+.home .stats .link-more { color: #fff; }
 
 .home-research { background: var(--soft); }
 .cards { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(5, 1fr); gap: 18px; }
